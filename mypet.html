@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        
+            background-color: rgb(220, 244, 236);
+            background-repeat:no-repeat;
+            background-position:right top;
+            background-size: 300px 300px
+        }
+
+        .pethome{        
+             background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+        }
+        .pethome h2{
+            font-size: 40px;
+            text-align: center;
+            color: rgb(255, 127, 153);
+            text-shadow: 2px 2px rgb(59, 180, 193);
+        }
+        .box{
+          margin: 50px auto;
+          border:solid 1px gray;
+          overflow: hidden;
+        }
+        .p1{
+          width: 300px;
+          float:left; 
+          padding: 20px;
+          
+        }
+        .p1 image{
+            width: 500px;
+            height: 200px;
+            background-color: green;
+            object-fit: none;
+            object-position: center top;
+        }
+        .petimage{ 
+            width:240px; height:240px; border-radius:240px; -webkit-border-radius:240px; -moz-border-radius:240px;
+         }
+
+        .video{
+          margin: auto;
+          border:solid 1px gray;
+          overflow: hidden;
+        }
+        .dahuang{
+            font-weight: 500;
+        }
+        .para{
+            font-style: oblique;
+            color: rgb(118, 49, 49);
+            text-indent: 30px;
+            line-height: 50px
+        }
+        h3{
+            color: blueviolet;
+            text-shadow: 3px 3px greenyellow;
+        }
+    </style>
+</head>   
+<body>
+    <div class="pethome">
+        <h2>Pet Home</h2>
+    </div>
+    <p><hr></p>
+    <h3>About him</h3>
+    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tbody><tr>
+          <td width="68%" valign="middle">
+            <p align="center" class="dahuang"><name>Dahuang</name></p>
+              <p align="justify" class="para">His name is Dahuang.He is a four-month-old corgi with a lively and active personality. He has yellow and white fur, big round eyes, and four short legs. But don't underestimate him, he is agile and runs fast. He usually likes to eat meat and fruit, and he especially likes to chew on bones. He is my good friend and can be my company.</p>
+            </br>
+          </td>
+          <td align="right"> <img class="petimage" src="./pet.jpg" style="width: 240;"></td></tr>
+        </tbody>
+      </table>
+
+ 
+    <h3>Video of him</h3>
+    <div class="video">
+    <video src="./dog.mp4" width="320" height="240" controls></video>
+    </div>
+</body>
+</html>
